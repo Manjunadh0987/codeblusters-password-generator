@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Password Generator</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="bg-container ">
+        <h1 class="main-heading"> Hackathon   Project </h1>
+    <div class="container-2 ">
+        
+        <div class="card-container d-flex flex-column justify-content-end">
+        <h1 class="heading-1">Strong Password Generator</h1>
+        <label class="length" for="length" >Length:</label>
+        <input type="number" id="length" min="8" max="32" value="12">
+        <label class="upper-case" for="uppercase">Uppercase Letters:</label>
+        <input type="checkbox" id="uppercase">
+        <label class="lower-case" for="lowercase">Lowercase Letters:</label>
+        <input type="checkbox" id="lowercase">
+        <label class="special-password" for="special">Special Characters:</label>
+        <input type="checkbox" id="special">
+        <button class="button" id="generateBtn">Generate Password</button>
+        <textarea id="password" rows="3" readonly></textarea>
+    </div>
+</div>
+</div>
+    <script src="test.js"></script>
+</body>
+</html>
